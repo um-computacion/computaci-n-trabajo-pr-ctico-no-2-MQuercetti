@@ -7,5 +7,10 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(is_palindrome("racecar"))
         self.assertTrue(is_palindrome("level"))
 
+def test_edge_cases(self):
+        self.assertTrue(is_palindrome(""))
+        self.assertTrue(is_palindrome("a"))
+        self.assertTrue(is_palindrome("A"))
+        
 if __name__ == '__main__':
     unittest.main()
